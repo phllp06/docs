@@ -94,15 +94,14 @@
         "href": "https://fintag.io"
       },
       {
+        "label": "Developer",
+        "href": "https://dev.fintag.io"
+      },
+      {
         "label": "Support",
         "href": "mailto:support@fintag.io"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
+    ]
   },
   "footer": {
     "socials": {
