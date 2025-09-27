@@ -1,7 +1,6 @@
 ---
 title: "Architecture"
-description: "Text, title, and styling in standard markdown"
-icon: "text-size"
+icon: "server-cog"
 ---
 
 The Fintag architecture is designed to provide a seamless and secure Telegram-based payment system, enabling users to instantly send and receive Solana within chat environments. At its core, the system integrates directly with the Telegram Bot API, serving as the primary user interface for wallet creation/import, tag management, and transaction initiation. The Fintag backend acts as the central processing unit, featuring a robust Tag-Wallet mapper that securely links user-defined tags (e.g., #username) to their respective Solana wallets stored in a dedicated wallet database. All transactions are meticulously processed by the Transaction processor, which ensures every operation is conducted on-chain via the Solana blockchain, providing users with transparent and verifiable receipts. For enhanced security, an optional security module incorporates PIN and 2FA authentication for outgoing transactions. Future iterations will expand integration to additional platforms like X (formerly Twitter), solidifying Fintag's position as a versatile and reliable instant payment solution.
