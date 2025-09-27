@@ -22,11 +22,11 @@
             ]
           },
           {
-            "group": "Customization",
+            "group": "Whitepaper",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/markdown"
+              "essentials/overview",
+              "essentials/features",
+              "essentials/architecture"
             ]
           },
           {

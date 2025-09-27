@@ -1,0 +1,27 @@
+---
+title: "Architecture"
+description: "Text, title, and styling in standard markdown"
+icon: "text-size"
+---
+
+The Fintag architecture is designed to provide a seamless and secure Telegram-based payment system, enabling users to instantly send and receive Solana within chat environments. At its core, the system integrates directly with the Telegram Bot API, serving as the primary user interface for wallet creation/import, tag management, and transaction initiation. The Fintag backend acts as the central processing unit, featuring a robust Tag-Wallet mapper that securely links user-defined tags (e.g., #username) to their respective Solana wallets stored in a dedicated wallet database. All transactions are meticulously processed by the Transaction processor, which ensures every operation is conducted on-chain via the Solana blockchain, providing users with transparent and verifiable receipts. For enhanced security, an optional security module incorporates PIN and 2FA authentication for outgoing transactions. Future iterations will expand integration to additional platforms like X (formerly Twitter), solidifying Fintag's position as a versatile and reliable instant payment solution.
+
+<img
+  src="/images/arch.avif"
+  alt="Arch Avi"
+  title="Arch Avi"
+  style={{ width:"100%" }}
+/>
+
+#### **How it works**
+
+Fintag revolutionizes cryptocurrency transactions by making them as simple as sending a message on Telegram. Powered by Solana’s high-speed, low-cost blockchain, Fintag enables users to send and receive SOL effortlessly using hashtag-based handles. Below is a step-by-step breakdown of how Fintag delivers its seamless, secure, and social transaction experience:
+
+1. Link Wallet to Fintag Users begin by linking a Solana wallet to Fintag Telegram Bot. This can be done by creating a new wallet directly within the bot or importing an existing one, ensuring a quick and secure setup without external apps.
+2. Choose Your Unique Tag Users select a personalized handle, such as #UserName, to represent their identity on the platform. This custom tag replaces traditional wallet addresses, making transactions intuitive and user-friendly.
+3. Fintag Maps and Confirms Transactions When a user initiates a transaction (e.g., Send 1.2 SOL to #UserName), Fintag instantly maps the tag to the recipient’s linked wallet address. The system verifies the transaction details, ensuring accuracy and transparency before processing.
+4. On-Chain Transactions with Transparent Receipts All transactions are executed on the Solana blockchain, leveraging its speed (up to 65,000 transactions per second) and low fees (averaging under \$0.01). Users receive clear, on-chain receipts for every transaction, providing a verifiable record of activity.
+5. Enhanced Security with Optional PIN/2FA Fintag prioritizes user safety with optional security features like transaction PINs and two-factor authentication (2FA). These safeguards ensure that funds are protected, giving users peace of mind when sending or receiving crypto.
+6. Seamless Integration and Future Expansion Fintag is fully integrated with Telegram’s Bot API, enabling transactions within the platform’s familiar chat interface. Looking ahead, Fintag plans to expand to X via its API and explore local SMS integration.
+
+![Arch2 Avi](/images/arch2.avif)
