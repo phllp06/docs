@@ -3,15 +3,15 @@
   "theme": "mint",
   "name": "Mint Starter Kit",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+      "primary": "#6A0DAD",
+    "light": "#6A0DAD",
+    "dark": "#9D4EDD"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Docs",
         "groups": [
           {
             "group": "Getting started",
@@ -48,7 +48,7 @@
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "For Developers",
         "groups": [
           {
             "group": "API documentation",
