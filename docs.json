@@ -25,13 +25,13 @@
             "group": "Customization",
             "pages": [
               "essentials/settings",
-              "essentials/navigation"
+              "essentials/navigation",
+              "essentials/markdown"
             ]
           },
           {
             "group": "Writing content",
             "pages": [
-              "essentials/markdown",
               "essentials/code",
               "essentials/images",
               "essentials/reusable-snippets"
